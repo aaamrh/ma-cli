@@ -1,6 +1,6 @@
 {
   "name": "@ma-cli/core",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "ma-cli-dev core",
   "author": "aaamrh <aaamrh@163.com>",
   "homepage": "",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "node ./__tests__/core.test.js"
   },
-  "gitHead": "2bdb02a5082cbbbf7bd14c70aae201b7cecffcc7"
+  "gitHead": "5429972737da9c32fc62c7d244c145d3e2803c4d"
 }

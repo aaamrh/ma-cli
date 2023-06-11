@@ -1,0 +1,7 @@
+46 error Error: Command failed with exit code 128: git tag v0.0.2 -m v0.0.2
+46 error fatal: tag 'v0.0.2' already exists
+46 error     at makeError (D:\learn\ma-cli-dev\ma-cli-dev\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
+46 error     at handlePromise (D:\learn\ma-cli-dev\ma-cli-dev\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:114:26)
+46 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+46 error     at async VersionCommand.commitAndTagUpdates (D:\learn\ma-cli-dev\ma-cli-dev\node_modules\.pnpm\lerna@7.0.0\node_modules\lerna\dist\index.js:8182:18)
+46 error     at async Promise.all (index 0)

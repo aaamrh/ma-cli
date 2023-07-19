@@ -1,14 +1,14 @@
 {
-  "name": "@ma-cli/core",
+  "name": "@ma-cli/utils",
   "version": "0.0.5",
-  "description": "ma-cli-dev core",
+  "description": "utils",
   "author": "aaamrh <aaamrh@163.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
   "bin": {
-    "ma-cli": "bin/index.js"
+    "ma": "lib/index.js"
   },
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -17,7 +17,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "node ./__tests__/core.test.js"
+    "test": "node ./__tests__/utils.test.js"
   },
   "gitHead": "d6c38f155a80be3f31d732019440dc4d70c1b686",
   "publishConfig": {

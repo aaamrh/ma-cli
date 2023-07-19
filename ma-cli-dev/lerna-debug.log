@@ -1,7 +1,19 @@
-46 error Error: Command failed with exit code 128: git tag v0.0.2 -m v0.0.2
-46 error fatal: tag 'v0.0.2' already exists
-46 error     at makeError (D:\learn\ma-cli-dev\ma-cli-dev\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
-46 error     at handlePromise (D:\learn\ma-cli-dev\ma-cli-dev\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:114:26)
-46 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-46 error     at async VersionCommand.commitAndTagUpdates (D:\learn\ma-cli-dev\ma-cli-dev\node_modules\.pnpm\lerna@7.0.0\node_modules\lerna\dist\index.js:8182:18)
-46 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '7.0.0',
+0 silly argv   '$0': 'C:\\Users\\aaamr\\AppData\\Roaming\\npm\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   name: '@ma-cli/format-path'
+0 silly argv }
+1 notice cli v7.0.0
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["core/*","commands/*","models/*","utils/*"]
+3 verbose rootPath D:\learn\ma-cli-dev\ma-cli-dev
+4 error Error: canceled
+4 error     at Interface.<anonymous> (D:\learn\ma-cli-dev\ma-cli-dev\node_modules\.pnpm\read@2.1.0\node_modules\read\lib\read.js:79:15)
+4 error     at Interface.emit (node:events:513:28)
+4 error     at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1124:18)
+4 error     at ReadStream.onkeypress (node:internal/readline/interface:273:20)
+4 error     at ReadStream.emit (node:events:513:28)
+4 error     at emitKeys (node:internal/readline/utils:357:14)
+4 error     at emitKeys.next (<anonymous>)
+4 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+4 error     at ReadStream.emit (node:events:513:28)
